@@ -7,6 +7,9 @@
 
 local ServerLoader = require(game:GetService("ServerScriptService").Core.ServerLoader)
 local ServerStatus = require(game:GetService("ServerScriptService").Core.ServerStatus)
+local ServerConfigurations = require(game:GetService("ServerScriptService").Core.ServerConfigurations)
+
+ServerConfigurations.setupConfig({})
 
 ServerStatus.init()
 ServerLoader.init()
