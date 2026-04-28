@@ -30,7 +30,6 @@ SharedModuleDirectory.Utilities.Timer = sharedRoot.Utilities.Timer
 SharedModuleDirectory.Utilities.ListUtil = sharedRoot.Utilities.ListUtil
 
 SharedModuleDirectory.Data = {}
-SharedModuleDirectory.Data.Questions = sharedRoot.Data.Questions
 
 
 

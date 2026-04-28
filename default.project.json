@@ -1,16 +1,43 @@
 {
-  "name": "1% Quiz",
+  "name": "ArgonStartProject",
   "tree": {
     "$className": "DataModel",
     "ReplicatedStorage": {
-      "$path": "src/Shared"
+      "$path": "src/Shared",
+      "Asynchronous": {
+        "$className": "RemoteEvent"
+      },
+      "Synchronous": {
+        "$className": "RemoteFunction"
+      },
+      "QueryLoaded": {
+        "$className": "RemoteFunction"
+      },
+      "UnreliableAsynchronous": {
+        "$className": "UnreliableRemoteEvent"
+      }
     },
     "ServerScriptService": {
-      "$path": "src/Server"
+      "$path": "src/Server",
+      "BindableEvent": {
+        "$className": "BindableEvent"
+      },
+      "BindableFunction": {
+        "$className": "BindableFunction"
+      }
+    },
+    "ReplicatedFirst": {
+      "$path": "src/ReplicatedFirst"
     },
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "$path": "src/Client"
+        "$path": "src/Client",
+        "BindableEvent": {
+          "$className": "BindableEvent"
+        },
+        "BindableFunction": {
+          "$className": "BindableFunction"
+        }
       }
     }
   }
