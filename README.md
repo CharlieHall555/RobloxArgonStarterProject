@@ -1,7 +1,3 @@
-# 1% Quiz
-
-A Roblox quiz game where players test their knowledge and compete to be in the top 1%.
-
 ## Project Structure
 
 ```
